@@ -1,5 +1,5 @@
 name: orthogonal_pawns
-description: "Orthogonal Pawns 5x5 - 12 vs 12, a checkers-style abstract board game with orthogonal-only moves."
+description: "Natha Kalb - orthogonal checkers, 5x5 board, 12 vs 12."
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -9,7 +9,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.6
   audioplayers: ^6.1.0
   shared_preferences: ^2.3.2
 
@@ -20,8 +19,5 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  # Sound effects are optional (the app catches missing-asset errors
-  # silently). To enable them, add move.wav / capture.wav / win.wav
-  # under assets/sounds/ and uncomment the two lines below.
-  # assets:
-  #   - assets/sounds/
+  assets:
+    - assets/sounds/
